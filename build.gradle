@@ -1,12 +1,12 @@
 plugins {
-	id 'org.ysb33r.jruby.base' version '2.0.0'
-	id 'org.ysb33r.jruby.resolver' version '2.0.0'
+	id 'org.ysb33r.jruby.base' version '2.2.0'
+	id 'org.ysb33r.jruby.resolver' version '2.2.0'
 }
 
 import org.ysb33r.gradle.jruby.api.base.tasks.JRubyExec
 import org.ysb33r.gradle.jruby.api.base.tasks.JRubyPrepare
 
-jruby.jrubyVersion = '10.0.0.1'
+jruby.jrubyVersion = '10.0.2.0'
 
 repositories {
 	mavenCentral()
